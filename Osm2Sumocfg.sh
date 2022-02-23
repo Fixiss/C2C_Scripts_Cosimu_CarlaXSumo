@@ -12,13 +12,13 @@ shift
 
 #on initialise par défault les autres arguments
 titre=map
-nbVehicle=50
+nbVehicles=50
 
 #on vérifie les options et on associe les nouvelles valeurs si besoin
 while getopts 't:n:' OPTION; do
         case $OPTION in 
             t) titre=$OPTARG;;
-            n) nbVehicle=$OPTARG;;
+            n) nbVehicles=$OPTARG;;
         esac
 done
 
@@ -26,7 +26,7 @@ done
 #affichage des valeurs
 echo "Le fichier osm : "$osm
 echo "Le titre du sumocfg : "$titre
-echo "Le nombre de véhicules dans la simulation : "$nbVehicle
+echo "Le nombre de véhicules dans la simulation : "$nbVehicles
 #création du fichier xodr
 echo > map_xodr/$titre.xodr
 #traduction du osm en xodr
@@ -34,7 +34,7 @@ echo $(python3 osm2xodr.py $osm map_xodr/$titre.xodr)
 #transformation du xodr en network Sumo
 echo $(../Sumo/bin/netconvert.exe --opendrive-files ./map_xodr/$titre.xodr -o ./map_net_xml/$titre.net.xml) > /dev/null
 #création des routes pour le network Sumo
-echo $(python3 ../Sumo/tools/randomTrips.py -n ./map_net_xml/$titre.net.xml -r ./map_rou_xml/$titre.rou.xml -e $nbVehicle -l) > /dev/null
+echo $(python3 ../Sumo/tools/randomTrips.py -n ./map_net_xml/$titre.net.xml -r ./map_rou_xml/$titre.rou.xml -e $nbVehicles -l) > /dev/null
 #rédaction du fichier sumocfg
 echo "<configuration>
 <input>
@@ -45,4 +45,4 @@ echo "<configuration>
     <begin value=\"0\"/>
     <end value=\"2000\"/>
 </time>
-</configuration>" > map_sumocfg/$titre_$nbVehicle.sumocfg
+</configuration>" > map_sumocfg/$titre_$nbVehicles.sumocfg
