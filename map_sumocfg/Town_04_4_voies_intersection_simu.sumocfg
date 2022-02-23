@@ -1,0 +1,6 @@
+<configuration>
+    <input>
+        <net-file value="../map_net_xml/Town_04_4_voies_intersection_simu.net.xml"/>
+        <route-files value="../map_rou_xml/Town_04_4_voies_intersection_simu.rou.xml"/>
+    </input>
+</configuration>

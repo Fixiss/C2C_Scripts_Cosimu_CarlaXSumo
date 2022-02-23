@@ -1,0 +1,2249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenDRIVE>
+    <header revMajor="1" revMinor="4" name="" version="1.00" date="Tue Feb 15 09:47:51 2022" north="483.78" south="0.00" east="1083.37" west="0.00"/>
+    <road name="Avenue de Lyon" length="32.68500197" id="120" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="1"/>
+            <successor elementType="junction" elementId="2"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="957.05753197" y="282.23385113" hdg="-2.22626987" length="32.68500197">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13" laneChange="both"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13" laneChange="both"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+    <road name="Rue Matabiau" length="56.49094947" id="121" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="3"/>
+            <successor elementType="junction" elementId="2"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="882.35603490" y="207.27648649" hdg="0.66993644" length="5.03935417">
+                <line/>
+            </geometry>
+            <geometry s="5.03935417" x="886.30618877" y="210.40560375" hdg="0.66993644" length="8.33333284">
+                <paramPoly3 aU="0.00000000" bU="6.24999953" cU="6.24999953" dU="-4.16666698" aV="0.00000000" bV="0.00000000" cV="-0.00483332" dV="0.00161111"/>
+            </geometry>
+            <geometry s="13.37268701" x="892.84036469" y="215.57754526" hdg="0.66916311" length="16.72955640">
+                <line/>
+            </geometry>
+            <geometry s="30.10224340" x="905.96204317" y="225.95538758" hdg="0.66916311" length="8.33333333">
+                <paramPoly3 aU="0.00000000" bU="6.25000000" cU="6.25000000" dU="-4.16666667" aV="0.00000000" bV="0.00000000" cV="0.00012698" dV="-0.00004233"/>
+            </geometry>
+            <geometry s="38.43557673" x="912.49816639" y="231.12486895" hdg="0.66918343" length="18.05537274">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13" laneChange="both"/>
+                        <speed sOffset="0" max="8.33"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="8.33"/>
+                    </lane>
+                    <lane id="-3" type="restricted" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="8.33"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+    <road name="Avenue de Lyon" length="9.87991237" id="122" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="4"/>
+            <successor elementType="junction" elementId="1"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="980.27223030" y="307.29799746" hdg="-2.25023941" length="0.10000000">
+                <line/>
+            </geometry>
+            <geometry s="0.10000000" x="980.20939431" y="307.22020519" hdg="-2.25065319" length="9.17290491">
+                <line/>
+            </geometry>
+            <geometry s="9.27290491" x="974.44255670" y="300.08677905" hdg="-2.25078597" length="0.60700746">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13" laneChange="both"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+    <road name="Avenue de Lyon" length="103.26433072" id="123" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="5"/>
+            <successor elementType="junction" elementId="4"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="1045.52433281" y="387.71855804" hdg="-2.25574824" length="35.63998477">
+                <line/>
+            </geometry>
+            <geometry s="35.63998477" x="1022.97720360" y="360.11719071" hdg="-2.25574824" length="11.46643266">
+                <paramPoly3 aU="-0.00000000" bU="8.59981541" cU="8.59947237" dU="-5.73301776" aV="0.00000000" bV="-0.00000000" cV="0.13305304" dV="-0.07430010"/>
+            </geometry>
+            <geometry s="47.10641743" x="1015.76873222" y="351.19997475" hdg="-2.25072418" length="56.15791329">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13" laneChange="both"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+    <road name="Avenue de Lyon" length="6.15937034" id="124" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="6"/>
+            <successor elementType="junction" elementId="5"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="1050.98718191" y="394.40470309" hdg="-2.25593588" length="6.15937034">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13" laneChange="both"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+    <road name="Avenue de Lyon" length="32.68500197" id="125" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="2"/>
+            <successor elementType="junction" elementId="1"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="937.13488847" y="256.32250941" hdg="0.91532278" length="32.68500197">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13" laneChange="both"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+    <road name="Boulevard Pierre Semard" length="65.43795860" id="126" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="1"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="979.51501650" y="292.29972386" hdg="-0.56675560" length="0.10000000">
+                <line/>
+            </geometry>
+            <geometry s="0.10000000" x="979.59938123" y="292.24603408" hdg="-0.56675560" length="13.48418607">
+                <paramPoly3 aU="0.00000000" bU="10.11237880" cU="10.09614931" dU="-6.73502675" aV="0.00000000" bV="0.00000000" cV="-1.02343451" dV="0.51286520"/>
+            </geometry>
+            <geometry s="13.58418607" x="990.69214106" y="284.58140107" hdg="-0.61703929" length="7.17956177">
+                <paramPoly3 aU="0.00000000" bU="5.38420511" cU="5.38715442" dU="-3.59436877" aV="0.00000000" bV="0.00000000" cV="-0.19419931" dV="0.02691145"/>
+            </geometry>
+            <geometry s="20.76374784" x="996.44886343" y="280.29219028" hdg="-0.67421243" length="13.87101946">
+                <paramPoly3 aU="0.00000000" bU="10.40291206" cU="10.40329852" dU="-6.93779154" aV="0.00000000" bV="-0.00000000" cV="-0.35382358" dV="0.11073046"/>
+            </geometry>
+            <geometry s="34.63476730" x="1007.13109781" y="271.44447816" hdg="-0.71031169" length="7.85079833">
+                <paramPoly3 aU="0.00000000" bU="5.88713933" cU="5.89262953" dU="-3.93447763" aV="0.00000000" bV="0.00000000" cV="-0.31056158" dV="0.05296550"/>
+            </geometry>
+            <geometry s="42.48556563" x="1012.91110269" y="266.13349955" hdg="-0.78890722" length="13.15249017">
+                <paramPoly3 aU="0.00000000" bU="9.86237439" cU="9.88340186" dU="-6.60084976" aV="0.00000000" bV="0.00000000" cV="-0.23858379" dV="-0.12058559"/>
+            </geometry>
+            <geometry s="55.63805580" x="1021.91843523" y="256.55299561" hdg="-0.87407326" length="9.79990281">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13" laneChange="both"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13" laneChange="both"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-3" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+    <road name="Boulevard de Bonrepos" length="277.25473455" id="127" junction="-1">
+        <link>
+            <successor elementType="junction" elementId="2"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="1079.71994669" y="-1.63834116" hdg="1.99279575" length="10.32945062">
+                <line/>
+            </geometry>
+            <geometry s="10.32945062" x="1075.48915567" y="7.78492565" hdg="1.99279575" length="13.88888888">
+                <paramPoly3 aU="0.00000000" bU="10.41666666" cU="10.41666666" dU="-6.94444445" aV="-0.00000000" bV="-0.00000000" cV="-0.00081845" dV="0.00027282"/>
+            </geometry>
+            <geometry s="24.21833950" x="1069.80096886" y="20.45559118" hdg="1.99271718" length="91.15288790">
+                <line/>
+            </geometry>
+            <geometry s="115.37122740" x="1032.47262061" y="103.61473614" hdg="1.99271718" length="11.07182103">
+                <paramPoly3 aU="0.00000000" bU="8.30380890" cU="8.30336332" dU="-5.53593295" aV="-0.00000000" bV="0.00000000" cV="-0.18409147" dV="0.07824840"/>
+            </geometry>
+            <geometry s="126.44304843" x="1028.03535850" y="113.75841627" hdg="1.97664703" length="40.95412214">
+                <line/>
+            </geometry>
+            <geometry s="167.39717057" x="1011.86665066" y="151.38570699" hdg="1.97664703" length="13.88812041">
+                <paramPoly3 aU="0.00000000" bU="10.41602348" cU="10.41456703" dU="-6.94341673" aV="-0.00000000" bV="0.00000000" cV="0.31051262" dV="-0.15618208"/>
+            </geometry>
+            <geometry s="181.28529098" x="1006.24219373" y="164.08385244" hdg="1.99128644" length="6.45688153">
+                <paramPoly3 aU="0.00000000" bU="4.84238884" cU="4.84608984" dU="-3.23214600" aV="-0.00000000" bV="-0.00000000" cV="-0.05609788" dV="0.10507666"/>
+            </geometry>
+            <geometry s="187.74217251" x="1003.56195541" y="169.95777388" hdg="2.03322726" length="13.87152139">
+                <paramPoly3 aU="0.00000000" bU="10.40346931" cU="10.40129305" dU="-6.93524283" aV="-0.00000000" bV="0.00000000" cV="0.40962309" dV="-0.18785428"/>
+            </geometry>
+            <geometry s="201.61369390" x="997.17593892" y="182.27165006" hdg="2.05780647" length="2.85570264">
+                <paramPoly3 aU="0.00000000" bU="2.14121188" cU="2.14445080" dU="-1.43320158" aV="-0.00000000" bV="0.00000000" cV="0.14367275" dV="-0.02450705"/>
+            </geometry>
+            <geometry s="204.46939654" x="995.73571678" y="184.73670482" hdg="2.15783457" length="13.85502805">
+                <paramPoly3 aU="0.00000000" bU="10.39095327" cU="10.39380474" dU="-6.93115152" aV="-0.00000000" bV="-0.00000000" cV="0.15036267" dV="0.01591798"/>
+            </geometry>
+            <geometry s="218.32442459" x="987.92379541" y="196.17890507" hdg="2.19137766" length="6.12688362">
+                <paramPoly3 aU="0.00000000" bU="4.59408868" cU="4.59291469" dU="-3.06882526" aV="-0.00000000" bV="-0.00000000" cV="0.46019621" dV="-0.16177774"/>
+            </geometry>
+            <geometry s="224.45130821" x="984.12324916" y="200.98275823" hdg="2.28621956" length="13.85872756">
+                <paramPoly3 aU="0.00000000" bU="10.39365800" cU="10.39246172" dU="-6.93078492" aV="-0.00000000" bV="-0.00000000" cV="0.45397271" dV="-0.17165991"/>
+            </geometry>
+            <geometry s="238.31003576" x="974.82192911" y="211.25580297" hdg="2.32403679" length="4.93325769">
+                <paramPoly3 aU="0.00000000" bU="3.69897737" cU="3.69976457" dU="-2.47269984" aV="-0.00000000" bV="0.00000000" cV="0.35501730" dV="-0.11328272"/>
+            </geometry>
+            <geometry s="243.24329346" x="971.27614619" y="214.68388551" hdg="2.42428265" length="13.85871964">
+                <paramPoly3 aU="0.00000000" bU="10.39156623" cU="10.42456320" dU="-6.96300816" aV="-0.00000000" bV="-0.00000000" cV="-0.15233054" dV="0.40479823"/>
+            </geometry>
+            <geometry s="257.10201310" x="960.67079391" y="223.60011856" hdg="2.51194025" length="20.15272145">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13" laneChange="both"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+    <road name="Rue Matabiau" length="56.49094947" id="128" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="2"/>
+            <successor elementType="junction" elementId="3"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="926.65950955" y="242.32544236" hdg="-2.47240923" length="18.05537319">
+                <line/>
+            </geometry>
+            <geometry s="18.05537319" x="912.49816604" y="231.12486867" hdg="-2.47240923" length="8.33333333">
+                <paramPoly3 aU="-0.00000000" bU="6.25000000" cU="6.25000000" dU="-4.16666667" aV="0.00000000" bV="0.00000000" cV="-0.00012698" dV="0.00004233"/>
+            </geometry>
+            <geometry s="26.38870652" x="905.96204282" y="225.95538730" hdg="-2.47242954" length="16.72955595">
+                <line/>
+            </geometry>
+            <geometry s="43.11826247" x="892.84036469" y="215.57754526" hdg="-2.47242954" length="8.33333284">
+                <paramPoly3 aU="-0.00000000" bU="6.24999953" cU="6.24999953" dU="-4.16666698" aV="0.00000000" bV="-0.00000000" cV="0.00483332" dV="-0.00161111"/>
+            </geometry>
+            <geometry s="51.45159531" x="886.30618877" y="210.40560375" hdg="-2.47165621" length="5.03935417">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13" laneChange="both"/>
+                        <speed sOffset="0" max="8.33"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="8.33"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+    <road name="Boulevard des Minimes" length="863.34567771" id="129" junction="-1">
+        <link>
+            <successor elementType="junction" elementId="7"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="124.52691768" y="487.42384102" hdg="-0.42481406" length="39.16057281">
+                <line/>
+            </geometry>
+            <geometry s="39.16057281" x="160.20671804" y="471.28375712" hdg="-0.42481406" length="13.88384879">
+                <paramPoly3 aU="0.00000000" bU="10.41189489" cU="10.41189052" dU="-6.94761835" aV="0.00000000" bV="-0.00000000" cV="0.63052122" dV="-0.21036621"/>
+            </geometry>
+            <geometry s="53.04442160" x="173.02267480" y="465.94748549" hdg="-0.36427476" length="34.79617824">
+                <line/>
+            </geometry>
+            <geometry s="87.84059984" x="205.53561092" y="453.55059051" hdg="-0.36427476" length="6.25757319">
+                <paramPoly3 aU="0.00000000" bU="4.69300046" cU="4.69514858" dU="-3.13081596" aV="0.00000000" bV="0.00000000" cV="-0.15196485" dV="0.14866447"/>
+            </geometry>
+            <geometry s="94.09817303" x="211.38117691" y="451.31819574" hdg="-0.33399874" length="67.87088500">
+                <line/>
+            </geometry>
+            <geometry s="161.96905804" x="275.50145035" y="429.06853138" hdg="-0.33399874" length="6.37695824">
+                <paramPoly3 aU="0.00000000" bU="4.77952258" cU="4.66186845" dU="-3.12109014" aV="0.00000000" bV="0.00000000" cV="1.83307243" dV="-1.01755984"/>
+            </geometry>
+            <geometry s="168.34601627" x="281.73982934" y="427.76703541" hdg="-0.20529082" length="3.56347009">
+                <paramPoly3 aU="0.00000000" bU="2.67259697" cU="2.67267249" dU="-1.78180769" aV="0.00000000" bV="0.00000000" cV="-0.01304420" dV="0.01550569"/>
+            </geometry>
+            <geometry s="171.90948636" x="285.22896640" y="427.04302681" hdg="-0.19764699" length="13.63654041">
+                <paramPoly3 aU="0.00000000" bU="10.22740387" cU="10.22735581" dU="-6.81824370" aV="0.00000000" bV="0.00000000" cV="0.05437306" dV="-0.02959625"/>
+            </geometry>
+            <geometry s="185.54602677" x="298.60486287" y="424.38961846" hdg="-0.19569563" length="8.93590211">
+                <paramPoly3 aU="0.00000000" bU="6.70147446" cU="6.70707264" dU="-4.47324801" aV="0.00000000" bV="0.00000000" cV="-0.26837737" dV="0.27021041"/>
+            </geometry>
+            <geometry s="194.48192888" x="307.36996715" y="422.65395716" hdg="-0.15481615" length="13.85911431">
+                <paramPoly3 aU="0.00000000" bU="10.39336750" cU="10.39754688" dU="-6.93785502" aV="0.00000000" bV="-0.00000000" cV="0.47064328" dV="-0.10730615"/>
+            </geometry>
+            <geometry s="208.34104319" x="321.11336851" y="420.87682848" hdg="-0.09518819" length="13.82405056">
+                <paramPoly3 aU="0.00000000" bU="10.36725167" cU="10.35854794" dU="-6.91054857" aV="0.00000000" bV="0.00000000" cV="0.83948238" dV="-0.37663354"/>
+            </geometry>
+            <geometry s="222.16509375" x="334.91006949" y="420.02451828" hdg="-0.04220200" length="13.87967881">
+                <paramPoly3 aU="0.00000000" bU="10.40878063" cU="10.41863504" dU="-6.95165794" aV="0.00000000" bV="0.00000000" cV="0.20160323" dV="0.06787252"/>
+            </geometry>
+            <geometry s="236.04477256" x="348.78484166" y="419.70834316" hdg="0.01613032" length="19.44581271">
+                <line/>
+            </geometry>
+            <geometry s="255.49058527" x="368.22812465" y="420.02199669" hdg="0.01613032" length="7.29426062">
+                <paramPoly3 aU="0.00000000" bU="5.46965168" cU="5.43090810" dU="-3.62485374" aV="0.00000000" bV="-0.00000000" cV="1.12694094" dV="-0.62690245"/>
+            </geometry>
+            <geometry s="262.78484589" x="375.49481876" y="420.63932448" hdg="0.08440974" length="7.98031753">
+                <paramPoly3 aU="0.00000000" bU="5.98520134" cU="5.98563606" dU="-3.99056933" aV="0.00000000" bV="0.00000000" cV="-0.07966626" dV="0.07718800"/>
+            </geometry>
+            <geometry s="270.76516342" x="383.44688292" y="421.30966776" hdg="0.09647838" length="13.88634752">
+                <paramPoly3 aU="0.00000000" bU="10.41468763" cU="10.41502451" dU="-6.94381335" aV="0.00000000" bV="0.00000000" cV="0.12614680" dV="-0.02736008"/>
+            </geometry>
+            <geometry s="284.65151094" x="397.25869030" y="422.74560673" hdg="0.11282270" length="12.48923488">
+                <paramPoly3 aU="0.00000000" bU="9.36673124" cU="9.36836865" dU="-6.24678263" aV="0.00000000" bV="0.00000000" cV="0.12446662" dV="0.00370527"/>
+            </geometry>
+            <geometry s="297.14074581" x="409.65318015" y="424.27894214" hdg="0.14058932" length="9.82144827">
+                <paramPoly3 aU="0.00000000" bU="7.36594795" cU="7.35986166" dU="-4.90697857" aV="0.00000000" bV="0.00000000" cV="0.52213573" dV="-0.30354440"/>
+            </geometry>
+            <geometry s="306.96219408" x="419.34450410" y="425.87125657" hdg="0.15873302" length="20.69807806">
+                <line/>
+            </geometry>
+            <geometry s="327.66027214" x="439.78237303" y="429.14294556" hdg="0.15873302" length="13.76555081">
+                <paramPoly3 aU="0.00000000" bU="10.32311662" cU="10.32833148" dU="-6.89218902" aV="0.00000000" bV="0.00000000" cV="0.46057441" dV="-0.09346934"/>
+            </geometry>
+            <geometry s="341.42582294" x="453.31062813" y="431.68032422" hdg="0.22084149" length="14.57845347">
+                <line/>
+            </geometry>
+            <geometry s="356.00427641" x="467.53502150" y="434.87374540" hdg="0.22084149" length="13.88873784">
+                <paramPoly3 aU="0.00000000" bU="10.41652363" cU="10.41652363" dU="-6.94453979" aV="0.00000000" bV="-0.00000000" cV="0.10917612" dV="-0.03639304"/>
+            </geometry>
+            <geometry s="369.89301425" x="481.07028207" y="437.98704882" hdg="0.23132244" length="46.42226685">
+                <line/>
+            </geometry>
+            <geometry s="416.31528110" x="526.25604805" y="448.63004711" hdg="0.23132244" length="13.20430439">
+                <paramPoly3 aU="0.00000000" bU="9.90247926" cU="9.90502030" dU="-6.60812580" aV="0.00000000" bV="0.00000000" cV="-0.43393454" dV="0.11173404"/>
+            </geometry>
+            <geometry s="429.51958550" x="539.17771332" y="451.34258237" hdg="0.17750519" length="20.69306824">
+                <line/>
+            </geometry>
+            <geometry s="450.21265374" x="559.54563707" y="454.99645095" hdg="0.17750519" length="12.41423936">
+                <paramPoly3 aU="0.00000000" bU="9.30964148" cU="9.32257654" dU="-6.21936428" aV="0.00000000" bV="0.00000000" cV="0.47192861" dV="-0.47817736"/>
+            </geometry>
+            <geometry s="462.62689310" x="571.76455442" y="457.18209407" hdg="0.12477467" length="29.08650612">
+                <line/>
+            </geometry>
+            <geometry s="491.71339921" x="600.62493434" y="460.80194331" hdg="0.12477467" length="13.88133020">
+                <paramPoly3 aU="0.00000000" bU="10.40951095" cU="10.40950113" dU="-6.94919854" aV="0.00000000" bV="-0.00000000" cV="-0.77207786" dV="0.25771263"/>
+            </geometry>
+            <geometry s="505.59472941" x="614.45093363" y="462.01769118" hdg="0.05063818" length="17.60712584">
+                <line/>
+            </geometry>
+            <geometry s="523.20185525" x="632.03548997" y="462.90890297" hdg="0.05063818" length="13.86779745">
+                <paramPoly3 aU="0.00000000" bU="10.39931982" cU="10.35196308" dU="-6.90861375" aV="0.00000000" bV="-0.00000000" cV="-1.72485669" dV="0.92497889"/>
+            </geometry>
+            <geometry s="537.06965270" x="645.90090210" y="462.81071850" hdg="-0.01429406" length="1.98151305">
+                <paramPoly3 aU="0.00000000" bU="1.48576827" cU="1.48523294" dU="-0.99250301" aV="0.00000000" bV="0.00000000" cV="-0.15553873" dV="0.05552688"/>
+            </geometry>
+            <geometry s="539.05116575" x="647.87776867" y="462.68243706" hdg="-0.11170196" length="13.86922552">
+                <paramPoly3 aU="0.00000000" bU="10.40170777" cU="10.40435565" dU="-6.93743073" aV="0.00000000" bV="0.00000000" cV="-0.00572321" dV="-0.08715577"/>
+            </geometry>
+            <geometry s="552.92039127" x="661.64961633" y="461.04420297" hdg="-0.13794237" length="7.96107190">
+                <paramPoly3 aU="0.00000000" bU="5.97009452" cU="5.96989197" dU="-3.98447587" aV="0.00000000" bV="0.00000000" cV="-0.40970148" dV="0.13867166"/>
+            </geometry>
+            <geometry s="560.88146317" x="669.49228974" y="459.68182258" hdg="-0.20556200" length="13.86981638">
+                <paramPoly3 aU="0.00000000" bU="10.40213579" cU="10.39843645" dU="-6.93363055" aV="0.00000000" bV="0.00000000" cV="-0.51226379" dV="0.24513541"/>
+            </geometry>
+            <geometry s="574.75127956" x="683.01275719" y="456.58983468" hdg="-0.23336000" length="2.67458111">
+                <paramPoly3 aU="0.00000000" bU="2.00563209" cU="2.00351362" dU="-1.33759190" aV="0.00000000" bV="0.00000000" cV="-0.20345348" dV="0.08505504"/>
+            </geometry>
+            <geometry s="577.42586067" x="685.58451889" y="455.85685464" hdg="-0.30909023" length="13.87920581">
+                <paramPoly3 aU="0.00000000" bU="10.40934409" cU="10.40971853" dU="-6.94019175" aV="0.00000000" bV="0.00000000" cV="-0.09826417" dV="0.01419920"/>
+            </geometry>
+            <geometry s="591.30506648" x="698.78010800" y="451.55493048" hdg="-0.32387852" length="4.21394816">
+                <paramPoly3 aU="0.00000000" bU="3.15985782" cU="3.16563227" dU="-2.11408944" aV="0.00000000" bV="0.00000000" cV="-0.10006804" dV="-0.02111339"/>
+            </geometry>
+            <geometry s="595.51901464" x="702.73398499" y="450.09978888" hdg="-0.40735775" length="13.85694950">
+                <paramPoly3 aU="0.00000000" bU="10.39016751" cU="10.42460229" dU="-6.96312911" aV="0.00000000" bV="0.00000000" cV="0.22171459" dV="-0.45211149"/>
+            </geometry>
+            <geometry s="609.37596415" x="715.36087789" y="444.40043731" hdg="-0.49533362" length="38.00889719">
+                <line/>
+            </geometry>
+            <geometry s="647.38486134" x="748.80149262" y="426.33385069" hdg="-0.49533362" length="3.01606894">
+                <paramPoly3 aU="0.00000000" bU="2.26198421" cU="2.26280234" dU="-1.50880770" aV="0.00000000" bV="0.00000000" cV="0.06313518" dV="-0.06237096"/>
+            </geometry>
+            <geometry s="650.40093028" x="751.45534478" y="424.90095231" hdg="-0.52223471" length="9.81405258">
+                <paramPoly3 aU="0.00000000" bU="7.36038323" cU="7.36212372" dU="-4.90900428" aV="0.00000000" bV="0.00000000" cV="-0.04391610" dV="-0.03797119"/>
+            </geometry>
+            <geometry s="660.21498286" x="759.91992571" y="419.93482607" hdg="-0.54964783" length="18.09492839">
+                <line/>
+            </geometry>
+            <geometry s="678.30991125" x="775.34962572" y="410.48227134" hdg="-0.54964783" length="13.88859178">
+                <paramPoly3 aU="0.00000000" bU="10.41638534" cU="10.41638532" dU="-6.94463197" aV="0.00000000" bV="0.00000000" cV="0.15311402" dV="-0.05104076"/>
+            </geometry>
+            <geometry s="692.19850304" x="787.24548195" y="403.31432745" hdg="-0.53494876" length="19.70484049">
+                <line/>
+            </geometry>
+            <geometry s="711.90334352" x="804.19745287" y="393.26885978" hdg="-0.53494876" length="12.78327646">
+                <paramPoly3 aU="0.00000000" bU="9.58731925" cU="9.58231029" dU="-6.38878351" aV="0.00000000" bV="0.00000000" cV="-0.53677986" dV="0.29714618"/>
+            </geometry>
+            <geometry s="724.68661999" x="815.07058315" y="386.54706780" hdg="-0.55394595" length="9.59786559">
+                <paramPoly3 aU="0.00000000" bU="7.19839849" cU="7.19840797" dU="-4.79894233" aV="0.00000000" bV="0.00000000" cV="0.00303843" dV="-0.00623357"/>
+            </geometry>
+            <geometry s="734.28448558" x="823.23145768" y="381.49542123" hdg="-0.55569965" length="13.58554923">
+                <paramPoly3 aU="0.00000000" bU="10.18910230" cU="10.18972433" dU="-6.79336374" aV="0.00000000" bV="0.00000000" cV="-0.15533843" dV="0.14170178"/>
+            </geometry>
+            <geometry s="747.87003481" x="834.76554326" y="374.31699122" hdg="-0.54446894" length="19.92607713">
+                <line/>
+            </geometry>
+            <geometry s="767.79611194" x="851.81035912" y="363.99600278" hdg="-0.54446894" length="11.36144339">
+                <paramPoly3 aU="0.00000000" bU="8.52106234" cU="8.52045628" dU="-5.68030492" aV="0.00000000" bV="-0.00000000" cV="0.20976567" dV="-0.14188940"/>
+            </geometry>
+            <geometry s="779.15755533" x="861.56392698" y="358.16936586" hdg="-0.54518914" length="10.81827843">
+                <paramPoly3 aU="0.00000000" bU="8.11369341" cU="8.11304265" dU="-5.40874555" aV="0.00000000" bV="0.00000000" cV="-0.17861789" dV="0.10255931"/>
+            </geometry>
+            <geometry s="789.97583375" x="870.77418258" y="352.49434202" hdg="-0.55129710" length="7.70197131">
+                <paramPoly3 aU="0.00000000" bU="5.77647768" cU="5.77647351" dU="-3.85098741" aV="0.00000000" bV="0.00000000" cV="0.01668132" dV="-0.00669966"/>
+            </geometry>
+            <geometry s="797.67780507" x="877.34029660" y="348.46861323" hdg="-0.54900095" length="13.88887273">
+                <paramPoly3 aU="0.00000000" bU="10.41665408" cU="10.41665657" dU="-6.94444068" aV="0.00000000" bV="-0.00000000" cV="0.00949315" dV="-0.00178992"/>
+            </geometry>
+            <geometry s="811.56667779" x="889.19216538" y="341.22748248" hdg="-0.54769376" length="13.02872155">
+                <paramPoly3 aU="0.00000000" bU="9.77153644" cU="9.77159972" dU="-6.51442510" aV="0.00000000" bV="0.00000000" cV="-0.00714713" dV="0.01759929"/>
+            </geometry>
+            <geometry s="824.59539934" x="900.32057951" y="334.45209908" hdg="-0.54375336" length="13.88866343">
+                <paramPoly3 aU="0.00000000" bU="10.41647401" cU="10.41671776" dU="-6.94461993" aV="0.00000000" bV="-0.00000000" cV="0.02864176" dV="0.01224429"/>
+            </geometry>
+            <geometry s="838.48406277" x="912.22719542" y="327.30181262" hdg="-0.53472750" length="24.86161494">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13" laneChange="both"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+    <road name="Boulevard des Minimes" length="10.74268968" id="130" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="7"/>
+            <successor elementType="junction" elementId="1"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="942.90704219" y="309.18452914" hdg="-0.52713657" length="10.74268968">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13" laneChange="both"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+    <road name="Boulevard Matabiau" length="988.34401109" id="131" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="2"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="917.61813483" y="254.94161467" hdg="2.61630130" length="0.10000000">
+                <line/>
+            </geometry>
+            <geometry s="0.10000000" x="917.53161704" y="254.99176118" hdg="2.61630130" length="7.69032423">
+                <paramPoly3 aU="0.00000000" bU="5.76626734" cU="5.71926294" dU="-3.81976772" aV="-0.00000000" bV="0.00000000" cV="-1.27790698" dV="0.68891679"/>
+            </geometry>
+            <geometry s="7.79032423" x="911.19472689" y="259.34545481" hdg="2.53138470" length="41.87728168">
+                <line/>
+            </geometry>
+            <geometry s="49.66760591" x="876.87508553" y="283.34272419" hdg="2.53138470" length="13.88775566">
+                <paramPoly3 aU="0.00000000" bU="10.41569786" cU="10.41396587" dU="-6.94335820" aV="-0.00000000" bV="-0.00000000" cV="0.35693930" dV="-0.16753678"/>
+            </geometry>
+            <geometry s="63.55536157" x="865.38632242" y="291.14488265" hdg="2.55166973" length="13.20052425">
+                <paramPoly3 aU="0.00000000" bU="9.90037357" cU="9.89964416" dU="-6.59984234" aV="-0.00000000" bV="0.00000000" cV="0.20815623" dV="-0.11585495"/>
+            </geometry>
+            <geometry s="76.75588581" x="854.36584675" y="298.41139942" hdg="2.55861373" length="13.88888883">
+                <paramPoly3 aU="0.00000000" bU="10.41666662" cU="10.41666668" dU="-6.94444449" aV="-0.00000000" bV="-0.00000000" cV="-0.00045342" dV="-0.00018440"/>
+            </geometry>
+            <geometry s="90.64477465" x="842.77138656" y="306.05794934" hdg="2.55847357" length="15.52366832">
+                <line/>
+            </geometry>
+            <geometry s="106.16844297" x="829.81301607" y="314.60575097" hdg="2.55847357" length="13.88867913">
+                <paramPoly3 aU="0.00000000" bU="10.41646804" cU="10.41646803" dU="-6.94457685" aV="-0.00000000" bV="0.00000000" cV="0.12865423" dV="-0.04288638"/>
+            </geometry>
+            <geometry s="120.05712210" x="818.17249226" y="322.18150726" hdg="2.57082445" length="115.17433104">
+                <line/>
+            </geometry>
+            <geometry s="235.23145314" x="721.25488437" y="384.40773817" hdg="2.57082445" length="5.22072415">
+                <paramPoly3 aU="0.00000000" bU="3.91408405" cU="3.93221538" dU="-2.62752187" aV="-0.00000000" bV="0.00000000" cV="-0.36583130" dV="0.36933509"/>
+            </geometry>
+            <geometry s="240.45217729" x="716.86146216" y="387.22438382" hdg="2.66712411" length="18.19101695">
+                <line/>
+            </geometry>
+            <geometry s="258.64319424" x="700.67990401" y="395.53523660" hdg="2.66712411" length="13.87287793">
+                <paramPoly3 aU="0.00000000" bU="10.40353325" cU="10.36651516" dU="-6.91615989" aV="-0.00000000" bV="0.00000000" cV="1.52226385" dV="-0.82592252"/>
+            </geometry>
+            <geometry s="272.51607217" x="688.03824174" y="401.24518346" hdg="2.72162875" length="1.29424015">
+                <paramPoly3 aU="0.00000000" bU="0.97047032" cU="0.97040984" dU="-0.64828478" aV="-0.00000000" bV="-0.00000000" cV="0.08985949" dV="-0.03043933"/>
+            </geometry>
+            <geometry s="273.81031232" x="686.83374093" y="401.71795337" hdg="2.81284607" length="13.87191145">
+                <paramPoly3 aU="0.00000000" bU="10.40390638" cU="10.40405187" dU="-6.93620673" aV="-0.00000000" bV="-0.00000000" cV="0.07205003" dV="-0.01347951"/>
+            </geometry>
+            <geometry s="287.68222377" x="673.68594284" y="406.14111134" hdg="2.82280995" length="1.82116770">
+                <paramPoly3 aU="0.00000000" bU="1.36547239" cU="1.36787312" dU="-0.91445863" aV="-0.00000000" bV="-0.00000000" cV="0.09479407" dV="-0.01514754"/>
+            </geometry>
+            <geometry s="289.50339147" x="671.93373370" y="406.63553644" hdg="2.92857158" length="13.85531019">
+                <paramPoly3 aU="0.00000000" bU="10.39105174" cU="10.39672308" dU="-6.93349843" aV="-0.00000000" bV="0.00000000" cV="-0.04425727" dV="0.15706579"/>
+            </geometry>
+            <geometry s="303.35870166" x="658.36876070" y="409.45426092" hdg="2.96540802" length="9.59490285">
+                <paramPoly3 aU="0.00000000" bU="7.19450927" cU="7.20161426" dU="-4.81168360" aV="-0.00000000" bV="-0.00000000" cV="0.51655650" dV="-0.11906164"/>
+            </geometry>
+            <geometry s="312.95360451" x="648.86302107" y="410.74282790" hdg="3.05949733" length="13.83998226">
+                <paramPoly3 aU="0.00000000" bU="10.37531509" cU="10.42944762" dU="-6.98021983" aV="-0.00000000" bV="0.00000000" cV="0.21418976" dV="0.29053692"/>
+            </geometry>
+            <geometry s="326.79358677" x="635.04364910" y="411.37345702" hdg="-3.09806133" length="32.03584744">
+                <line/>
+            </geometry>
+            <geometry s="358.82943420" x="603.03815045" y="409.97933472" hdg="-3.09806133" length="12.51039747">
+                <paramPoly3 aU="-0.00000000" bU="9.37678619" cU="9.18086735" dU="-6.14836499" aV="0.00000000" bV="0.00000000" cV="3.32104128" dV="-1.79818115"/>
+            </geometry>
+            <geometry s="371.33983167" x="590.70688887" y="407.91789515" hdg="-2.96462018" length="12.84905531">
+                <paramPoly3 aU="-0.00000000" bU="9.63674480" cU="9.63494182" dU="-6.42347468" aV="0.00000000" bV="0.00000000" cV="0.32298041" dV="-0.18130236"/>
+            </geometry>
+            <geometry s="384.18888699" x="578.08429302" y="405.51650035" hdg="-2.95402992" length="13.88888459">
+                <paramPoly3 aU="-0.00000000" bU="10.41666299" cU="10.41666765" dU="-6.94444779" aV="0.00000000" bV="-0.00000000" cV="-0.00386472" dV="-0.00174200"/>
+            </geometry>
+            <geometry s="398.07777158" x="564.43795326" y="402.93221911" hdg="-2.95527364" length="15.88398534">
+                <line/>
+            </geometry>
+            <geometry s="413.96175691" x="548.82887575" y="399.98982393" hdg="-2.95527364" length="13.88820652">
+                <paramPoly3 aU="-0.00000000" bU="10.41609037" cU="10.41490730" dU="-6.94364553" aV="0.00000000" bV="-0.00000000" cV="0.28538067" dV="-0.13929406"/>
+            </geometry>
+            <geometry s="427.84996343" x="535.20893674" y="397.27373256" hdg="-2.94059590" length="9.08091931">
+                <paramPoly3 aU="-0.00000000" bU="6.81067826" cU="6.81026562" dU="-4.54022321" aV="0.00000000" bV="0.00000000" cV="0.12985431" dV="-0.07209756"/>
+            </geometry>
+            <geometry s="436.93088274" x="526.32255944" y="395.40420795" hdg="-2.93422117" length="13.88888889">
+                <paramPoly3 aU="-0.00000000" bU="10.41666666" cU="10.41666667" dU="-6.94444445" aV="0.00000000" bV="0.00000000" cV="0.00004629" dV="0.00008488"/>
+            </geometry>
+            <geometry s="450.81977163" x="512.73126040" y="392.54451832" hdg="-2.93418784" length="35.39331146">
+                <line/>
+            </geometry>
+            <geometry s="486.21308309" x="478.09647670" y="385.25629120" hdg="-2.93418784" length="13.88847068">
+                <paramPoly3 aU="-0.00000000" bU="10.41627066" cU="10.41627063" dU="-6.94470840" aV="0.00000000" bV="-0.00000000" cV="-0.18165896" dV="0.06055759"/>
+            </geometry>
+            <geometry s="500.10155377" x="464.48134202" y="382.51500036" hdg="-2.95162732" length="49.86995428">
+                <line/>
+            </geometry>
+            <geometry s="549.97150805" x="415.50850923" y="373.09831361" hdg="-2.95162732" length="13.88394804">
+                <paramPoly3 aU="-0.00000000" bU="10.41262902" cU="10.40067924" dU="-6.93518434" aV="0.00000000" bV="-0.00000000" cV="-0.86403477" dV="0.47751499"/>
+            </geometry>
+            <geometry s="563.85545609" x="401.80705737" y="370.85734550" hdg="-2.98001249" length="0.27533067">
+                <paramPoly3 aU="-0.00000000" bU="0.20648921" cU="0.20633564" dU="-0.13760851" aV="0.00000000" bV="-0.00000000" cV="-0.01456794" dV="0.00705199"/>
+            </geometry>
+            <geometry s="564.13078676" x="401.53421677" y="370.82048730" hdg="-3.01866775" length="13.88797607">
+                <paramPoly3 aU="-0.00000000" bU="10.41596851" cU="10.41614337" dU="-6.94415421" aV="0.00000000" bV="0.00000000" cV="0.05115784" dV="-0.05428342"/>
+            </geometry>
+            <geometry s="578.01876283" x="387.75067101" y="369.12070954" hdg="-3.02447949" length="12.95042857">
+                <paramPoly3 aU="-0.00000000" bU="9.71275008" cU="9.71336992" dU="-6.47601898" aV="0.00000000" bV="0.00000000" cV="-0.07281332" dV="-0.00477391"/>
+            </geometry>
+            <geometry s="590.96919141" x="374.88021131" y="367.68460248" hdg="-3.04094811" length="13.88638931">
+                <paramPoly3 aU="-0.00000000" bU="10.41453124" cU="10.41723501" dU="-6.94638751" aV="0.00000000" bV="-0.00000000" cV="-0.09445195" dV="-0.04123201"/>
+            </geometry>
+            <geometry s="604.85558072" x="361.05146518" y="366.42447029" hdg="-3.07096836" length="23.21766980">
+                <line/>
+            </geometry>
+            <geometry s="628.07325052" x="337.89167375" y="364.78610164" hdg="-3.07096836" length="9.11425773">
+                <paramPoly3 aU="-0.00000000" bU="6.83131147" cU="6.73553862" dU="-4.51476049" aV="0.00000000" bV="0.00000000" cV="-2.03676188" dV="1.02537527"/>
+            </geometry>
+            <geometry s="637.18750824" x="328.79078063" y="365.15620093" hdg="3.06568930" length="24.43081632">
+                <line/>
+            </geometry>
+            <geometry s="661.61832456" x="304.43030741" y="367.00880184" hdg="3.06568930" length="10.66584856">
+                <paramPoly3 aU="0.00000000" bU="7.99282149" cU="7.82721498" dU="-5.25303612" aV="-0.00000000" bV="-0.00000000" cV="-2.85911388" dV="1.47629643"/>
+            </geometry>
+            <geometry s="672.28417312" x="293.99859211" y="369.18893865" hdg="2.90366932" length="20.01081738">
+                <line/>
+            </geometry>
+            <geometry s="692.29499050" x="274.55148929" y="373.90518760" hdg="2.90366932" length="6.53811854">
+                <paramPoly3 aU="0.00000000" bU="4.90307287" cU="4.90982562" dU="-3.27604612" aV="-0.00000000" bV="0.00000000" cV="0.02754312" dV="-0.11448356"/>
+            </geometry>
+            <geometry s="698.83310905" x="268.21927382" y="375.53031675" hdg="2.84482236" length="62.20467451">
+                <line/>
+            </geometry>
+            <geometry s="761.03778356" x="208.73381769" y="393.72102977" hdg="2.84482236" length="13.88090197">
+                <paramPoly3 aU="0.00000000" bU="10.40910565" cU="10.40909469" dU="-6.94946683" aV="-0.00000000" bV="-0.00000000" cV="-0.79363404" dV="0.26492845"/>
+            </geometry>
+            <geometry s="774.91868552" x="195.62595380" y="398.28230185" hdg="2.76861501" length="38.70456062">
+                <line/>
+            </geometry>
+            <geometry s="813.62324614" x="159.58246904" y="412.38585525" hdg="2.76861501" length="13.87963901">
+                <paramPoly3 aU="0.00000000" bU="10.40791040" cU="10.40789570" dU="-6.95025743" aV="-0.00000000" bV="-0.00000000" cV="-0.85403792" dV="0.28515751"/>
+            </geometry>
+            <geometry s="827.50288515" x="146.87752034" y="417.96808988" hdg="2.68660433" length="36.42604390">
+                <line/>
+            </geometry>
+            <geometry s="863.92892905" x="114.15723776" y="433.97558131" hdg="2.68660433" length="13.88461598">
+                <paramPoly3 aU="0.00000000" bU="10.41307417" cU="10.40533321" dU="-6.93909684" aV="-0.00000000" bV="-0.00000000" cV="-0.72246882" dV="0.35785832"/>
+            </geometry>
+            <geometry s="877.81354503" x="101.85015152" y="440.40238692" hdg="2.65093365" length="7.74790671">
+                <paramPoly3 aU="0.00000000" bU="5.81082590" cU="5.80752752" dU="-3.87168637" aV="-0.00000000" bV="-0.00000000" cV="-0.39869053" dV="0.26808962"/>
+            </geometry>
+            <geometry s="885.56145174" x="95.07895680" y="444.16786550" hdg="2.65211899" length="13.88360677">
+                <paramPoly3 aU="0.00000000" bU="10.41255109" cU="10.41336457" dU="-6.94321792" aV="-0.00000000" bV="-0.00000000" cV="0.17257684" dV="-0.03279359"/>
+            </geometry>
+            <geometry s="899.44505852" x="82.76063857" y="450.57160440" hdg="2.67582077" length="13.07371356">
+                <paramPoly3 aU="0.00000000" bU="9.80502296" cU="9.80593038" dU="-6.53895954" aV="-0.00000000" bV="0.00000000" cV="0.25416096" dV="-0.06489108"/>
+            </geometry>
+            <geometry s="912.51877208" x="70.99613319" y="456.27329347" hdg="2.70781480" length="13.88119841">
+                <paramPoly3 aU="0.00000000" bU="10.41064183" cU="10.40990383" dU="-6.94157868" aV="-0.00000000" bV="0.00000000" cV="0.36664622" dV="-0.13766482"/>
+            </geometry>
+            <geometry s="926.39997049" x="58.30633391" y="461.89887352" hdg="2.73858606" length="10.03915605">
+                <paramPoly3 aU="0.00000000" bU="7.52884809" cU="7.53269094" dU="-5.02503041" aV="-0.00000000" bV="-0.00000000" cV="0.21216010" dV="-0.01402725"/>
+            </geometry>
+            <geometry s="936.43912653" x="48.99618514" y="465.65279040" hdg="2.78937774" length="13.86979222">
+                <paramPoly3 aU="0.00000000" bU="10.40174724" cU="10.40270891" dU="-6.93896237" aV="-0.00000000" bV="0.00000000" cV="0.44669051" dV="-0.13501585"/>
+            </geometry>
+            <geometry s="950.30891876" x="35.87436048" y="470.14353384" hdg="2.83634226" length="11.69783219">
+                <paramPoly3 aU="0.00000000" bU="8.77296054" cU="8.76535617" dU="-5.84596719" aV="-0.00000000" bV="-0.00000000" cV="0.66375617" dV="-0.32414031"/>
+            </geometry>
+            <geometry s="962.00675094" x="24.62046261" y="473.33354308" hdg="2.87682898" length="13.88616696">
+                <paramPoly3 aU="0.00000000" bU="10.41434942" cU="10.41733145" dU="-6.94652743" aV="-0.00000000" bV="0.00000000" cV="0.08169154" dV="0.05222651"/>
+            </geometry>
+            <geometry s="975.89291790" x="11.18410224" y="476.83777487" hdg="2.90756667" length="12.45109319">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13" laneChange="both"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+    <road name="Rue du Maroc" length="72.77328002" id="132" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="7"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="939.16636883" y="316.01947151" hdg="0.85991145" length="0.10000000">
+                <line/>
+            </geometry>
+            <geometry s="0.10000000" x="939.23161929" y="316.09524999" hdg="0.85991145" length="7.20159645">
+                <paramPoly3 aU="0.00000000" bU="5.40067422" cU="5.39731567" dU="-3.60151834" aV="0.00000000" bV="0.00000000" cV="0.43017445" dV="-0.17770068"/>
+            </geometry>
+            <geometry s="7.30159645" x="943.73602908" y="321.71336696" hdg="0.92054230" length="20.02845305">
+                <line/>
+            </geometry>
+            <geometry s="27.33004950" x="955.86102649" y="337.65461438" hdg="0.92054230" length="6.16289201">
+                <paramPoly3 aU="0.00000000" bU="4.62138852" cU="4.61982358" dU="-3.08487872" aV="0.00000000" bV="-0.00000000" cV="-0.41023252" dV="0.14951913"/>
+            </geometry>
+            <geometry s="33.49294150" x="959.79551023" y="342.39679213" hdg="0.83997988" length="39.28033851">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="8.33"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+    <road name="Avenue de Lyon" length="9.87991237" id="133" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="1"/>
+            <successor elementType="junction" elementId="4"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="974.06087953" y="299.61478266" hdg="0.89080668" length="0.60690378">
+                <line/>
+            </geometry>
+            <geometry s="0.60690378" x="974.44249150" y="300.08669844" hdg="0.89093947" length="9.17300859">
+                <line/>
+            </geometry>
+            <geometry s="9.77991237" x="980.20939429" y="307.22020520" hdg="0.89135324" length="0.10000000">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+    <road name="Avenue de Lyon" length="103.26433063" id="134" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="4"/>
+            <successor elementType="junction" elementId="5"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="980.46017852" y="307.53056600" hdg="0.89086847" length="56.15791357">
+                <line/>
+            </geometry>
+            <geometry s="56.15791357" x="1015.76873240" y="351.19997498" hdg="0.89086847" length="11.46643183">
+                <paramPoly3 aU="0.00000000" bU="8.59981478" cU="8.59992315" dU="-5.73331828" aV="0.00000000" bV="0.00000000" cV="0.04664154" dV="-0.04549628"/>
+            </geometry>
+            <geometry s="67.62434540" x="1022.97720326" y="360.11719029" hdg="0.88584442" length="35.63998523">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+    <road name="Avenue de Lyon" length="6.15937034" id="135" junction="-1">
+        <link>
+            <predecessor elementType="junction" elementId="5"/>
+            <successor elementType="junction" elementId="6"/>
+        </link>
+        <type s="0" type="town"/>
+        <planView>
+            <geometry s="0.00000000" x="1047.08964892" y="389.63531325" hdg="0.88565677" length="6.15937034">
+                <line/>
+            </geometry>
+        </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link/>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13" laneChange="none"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals/>
+    </road>
+
+<road name=":245524387_0" length="10.76839366" id="136" junction="7">
+    <link>
+        <predecessor elementType="road" elementId="129" contactPoint="end"/>
+        <successor elementType="road" elementId="130" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="933.61831608" y="314.63216959" hdg="-0.53472750" length="10.76839366">
+            <paramPoly3 aU="0.00000000" bU="16.15251508" cU="-16.15234968" dU="10.76807800" aV="0.00000000" bV="0.00000000" cV="0.01660431" dV="0.02980097"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="-2"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        </signals>
+</road>
+<road name=":245524387_2" length="6.31409976" id="137" junction="7">
+    <link>
+        <predecessor elementType="road" elementId="129" contactPoint="end"/>
+        <successor elementType="road" elementId="132" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="933.61831608" y="314.63216959" hdg="-0.53472750" length="6.31409976">
+            <paramPoly3 aU="0.00000000" bU="6.70173180" cU="-2.63512366" dU="0.00000000" aV="0.00000000" bV="0.00000000" cV="4.02096931" dV="0.00000000"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="7.05"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        </signals>
+</road>
+<road name=":9113823512_0" length="0.29901950" id="138" junction="4">
+    <link>
+        <predecessor elementType="road" elementId="123" contactPoint="end"/>
+        <successor elementType="road" elementId="122" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="980.46017852" y="307.53056600" hdg="-2.25072418" length="0.29901950">
+            <paramPoly3 aU="-0.00000000" bU="0.44852924" cU="-0.44852922" dU="0.29901946" aV="0.00000000" bV="-0.00000000" cV="0.00000003" dV="0.00007246"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="-2"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="6" s="0.00" t="0.00" orientation="-"/>
+        <signal id="6" s="0" t="0" name="signal:6" dynamic="yes" orientation="none" zOffset="0" country="OpenDRIVE" type="1000001" subtype="-1" value="-1" height="0" width="0.50" text="" hOffset="0" pitch="0" roll="0">
+            <validity fromLane="0" toLane="0"/>
+            <positionInertial x="967.73" y="309.29" z="0.00" hdg="-2.25" pitch="0.00" roll="0.00"/>
+        </signal>
+        <signal id="7" s="0" t="0" name="signal:7" dynamic="yes" orientation="none" zOffset="0" country="OpenDRIVE" type="1000001" subtype="-1" value="-1" height="0" width="0.50" text="" hOffset="0" pitch="0" roll="0">
+            <validity fromLane="0" toLane="0"/>
+            <positionInertial x="989.89" y="308.06" z="0.00" hdg="0.89" pitch="0.00" roll="0.00"/>
+        </signal>
+        </signals>
+</road>
+<road name=":9113823512_2" length="0.29901950" id="139" junction="4">
+    <link>
+        <predecessor elementType="road" elementId="133" contactPoint="end"/>
+        <successor elementType="road" elementId="134" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="980.27223028" y="307.29799748" hdg="0.89135324" length="0.29901950">
+            <paramPoly3 aU="0.00000000" bU="0.44852924" cU="-0.44852922" dU="0.29901946" aV="0.00000000" bV="0.00000000" cV="-0.00000003" dV="-0.00007245"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="7" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+<road name=":cluster_1093786794_1958639714_29555101_9113823513_0" length="24.37261619" id="140" junction="1">
+    <link>
+        <predecessor elementType="road" elementId="122" contactPoint="end"/>
+        <successor elementType="road" elementId="120" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="974.06087953" y="299.61478266" hdg="-2.25078597" length="24.37261619">
+            <paramPoly3 aU="-0.00000000" bU="36.47223424" cU="-36.78624032" dU="24.52050686" aV="0.00000000" bV="0.00000000" cV="-7.77181144" dV="5.47923007"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="-2"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="8" s="0.00" t="0.00" orientation="-"/>
+        <signal id="8" s="0" t="0" name="signal:8" dynamic="yes" orientation="none" zOffset="0" country="OpenDRIVE" type="1000001" subtype="-1" value="-1" height="0" width="0.50" text="" hOffset="0" pitch="0" roll="0">
+            <validity fromLane="0" toLane="0"/>
+            <positionInertial x="948.50" y="279.71" z="0.00" hdg="-2.13" pitch="0.00" roll="0.00"/>
+        </signal>
+        <signal id="9" s="0" t="0" name="signal:9" dynamic="yes" orientation="none" zOffset="0" country="OpenDRIVE" type="1000001" subtype="-1" value="-1" height="0" width="0.50" text="" hOffset="0" pitch="0" roll="0">
+            <validity fromLane="0" toLane="0"/>
+            <positionInertial x="984.50" y="299.88" z="0.00" hdg="0.92" pitch="0.00" roll="0.00"/>
+        </signal>
+        <signal id="10" s="0" t="0" name="signal:10" dynamic="yes" orientation="none" zOffset="0" country="OpenDRIVE" type="1000001" subtype="-1" value="-1" height="0" width="0.50" text="" hOffset="0" pitch="0" roll="0">
+            <validity fromLane="0" toLane="0"/>
+            <positionInertial x="973.21" y="278.82" z="0.00" hdg="-0.53" pitch="0.00" roll="0.00"/>
+        </signal>
+        </signals>
+</road>
+<road name=":cluster_1093786794_1958639714_29555101_9113823513_2" length="10.04322491" id="141" junction="1">
+    <link>
+        <predecessor elementType="road" elementId="122" contactPoint="end"/>
+        <successor elementType="road" elementId="126" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="974.06087953" y="299.61478266" hdg="-2.25078597" length="10.04322491">
+            <paramPoly3 aU="-0.00000000" bU="6.52783690" cU="-4.26927846" dU="0.00000000" aV="0.00000000" bV="0.00000000" cV="8.84062266" dV="0.00000000"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="7.56"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="8" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+<road name=":cluster_1093786794_1958639714_29555101_9113823513_3" length="11.81182191" id="142" junction="1">
+    <link>
+        <predecessor elementType="road" elementId="122" contactPoint="end"/>
+        <successor elementType="road" elementId="133" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="970.95056261" y="302.12992255" hdg="-1.78713836" length="11.81182191">
+            <paramPoly3 aU="-0.00000000" bU="17.88854381" cU="-14.31083504" dU="0.00000000" aV="0.00000000" bV="0.00000000" cV="7.15541752" dV="0.00000000"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneOffset s="0" a="4.00" b="0" c="0" d="0"/>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="4.08"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="8" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+<road name=":cluster_1093786794_1958639714_29555101_9113823513_4" length="17.86985288" id="143" junction="1">
+    <link>
+        <predecessor elementType="road" elementId="125" contactPoint="end"/>
+        <successor elementType="road" elementId="126" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="960.22856947" y="279.79571225" hdg="0.91532278" length="17.86985288">
+            <paramPoly3 aU="0.00000000" bU="25.90955043" cU="-12.20965609" dU="0.00000000" aV="0.00000000" bV="0.00000000" cV="-8.37669535" dV="0.00000000"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="-3"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="9.39"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="9" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+<road name=":cluster_1093786794_1958639714_29555101_9113823513_5" length="24.18684541" id="144" junction="1">
+    <link>
+        <predecessor elementType="road" elementId="125" contactPoint="end"/>
+        <successor elementType="road" elementId="133" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="960.22856947" y="279.79571225" hdg="0.91532278" length="24.18684541">
+            <paramPoly3 aU="0.00000000" bU="36.25312118" cU="-36.31938804" dU="24.20929395" aV="0.00000000" bV="-0.00000000" cV="4.23285030" dV="-3.11813225"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="9" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+<road name=":cluster_1093786794_1958639714_29555101_9113823513_7" length="15.55132017" id="145" junction="1">
+    <link>
+        <predecessor elementType="road" elementId="130" contactPoint="end"/>
+        <successor elementType="road" elementId="120" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="950.17918076" y="300.32329998" hdg="-0.52713657" length="15.55132017">
+            <paramPoly3 aU="0.00000000" bU="17.09866667" cU="-9.98816251" dU="0.00000000" aV="0.00000000" bV="0.00000000" cV="-11.14971808" dV="0.00000000"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="-3"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="7.15"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="10" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+<road name=":cluster_1093786794_1958639714_29555101_9113823513_8" length="29.77534268" id="146" junction="1">
+    <link>
+        <predecessor elementType="road" elementId="130" contactPoint="end"/>
+        <successor elementType="road" elementId="126" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="952.19142349" y="303.78030435" hdg="-0.52713657" length="29.77534268">
+            <paramPoly3 aU="0.00000000" bU="44.45627675" cU="-45.16432276" dU="30.09791976" aV="0.00000000" bV="0.00000000" cV="13.23081730" dV="-9.40749622"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="-2"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="10" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+<road name=":cluster_1093786794_1958639714_29555101_9113823513_10" length="23.80895325" id="147" junction="1">
+    <link>
+        <predecessor elementType="road" elementId="130" contactPoint="end"/>
+        <successor elementType="road" elementId="133" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="952.19142349" y="303.78030435" hdg="-0.52713657" length="23.80895325">
+            <paramPoly3 aU="0.00000000" bU="39.71191777" cU="-18.71570631" dU="0.00000000" aV="0.00000000" bV="0.00000000" cV="7.40160679" dV="0.00000000"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="11.47"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="10" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+<road name=":cluster_1958639710_1977824632_8831755_0" length="12.83678313" id="148" junction="2">
+    <link>
+        <predecessor elementType="road" elementId="120" contactPoint="end"/>
+        <successor elementType="road" elementId="131" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="930.79281348" y="261.19878717" hdg="-2.22626987" length="12.83678313">
+            <paramPoly3 aU="-0.00000000" bU="16.17730556" cU="-7.15260239" dU="0.00000000" aV="0.00000000" bV="0.00000000" cV="-7.14964532" dV="0.00000000"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-3"/>
+                            <successor id="-2"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="7.17"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="11" s="0.00" t="0.00" orientation="-"/>
+        <signal id="11" s="0" t="0" name="signal:11" dynamic="yes" orientation="none" zOffset="0" country="OpenDRIVE" type="1000001" subtype="-1" value="-1" height="0" width="0.50" text="" hOffset="0" pitch="0" roll="0">
+            <validity fromLane="0" toLane="0"/>
+            <positionInertial x="905.50" y="239.79" z="0.00" hdg="-2.23" pitch="0.00" roll="0.00"/>
+        </signal>
+        <signal id="12" s="0" t="0" name="signal:12" dynamic="yes" orientation="none" zOffset="0" country="OpenDRIVE" type="1000001" subtype="-1" value="-1" height="0" width="0.50" text="" hOffset="0" pitch="0" roll="0">
+            <validity fromLane="0" toLane="0"/>
+            <positionInertial x="924.69" y="263.43" z="0.00" hdg="2.51" pitch="0.00" roll="0.00"/>
+        </signal>
+        <signal id="13" s="0" t="0" name="signal:13" dynamic="yes" orientation="none" zOffset="0" country="OpenDRIVE" type="1000001" subtype="-1" value="-1" height="0" width="0.50" text="" hOffset="0" pitch="0" roll="0">
+            <validity fromLane="0" toLane="0"/>
+            <positionInertial x="961.36" y="250.65" z="0.00" hdg="0.67" pitch="0.00" roll="0.00"/>
+        </signal>
+        </signals>
+</road>
+<road name=":cluster_1958639710_1977824632_8831755_1" length="18.50927284" id="149" junction="2">
+    <link>
+        <predecessor elementType="road" elementId="120" contactPoint="end"/>
+        <successor elementType="road" elementId="128" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="933.96385098" y="258.76064829" hdg="-2.22626987" length="18.50927284">
+            <paramPoly3 aU="-0.00000000" bU="26.97788252" cU="-27.67630344" dU="18.17983420" aV="0.00000000" bV="0.00000000" cV="19.25520177" dV="-15.02795827"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="11.11"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link>
+                            <predecessor id="-3"/>
+                            <successor id="-2"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="11.11"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="11" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+<road name=":cluster_1958639710_1977824632_8831755_4" length="18.64768359" id="150" junction="2">
+    <link>
+        <predecessor elementType="road" elementId="127" contactPoint="end"/>
+        <successor elementType="road" elementId="125" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="946.73817002" y="238.70025676" hdg="2.51194025" length="18.64768359">
+            <paramPoly3 aU="0.00000000" bU="28.71850584" cU="-14.57838303" dU="0.00000000" aV="-0.00000000" bV="0.00000000" cV="-8.48457435" dV="0.00000000"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="-2"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="8.28"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="12" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+<road name=":cluster_1958639710_1977824632_8831755_5" length="33.14652426" id="151" junction="2">
+    <link>
+        <predecessor elementType="road" elementId="127" contactPoint="end"/>
+        <successor elementType="road" elementId="131" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="944.38271461" y="235.46732778" hdg="2.51194025" length="33.14652426">
+            <paramPoly3 aU="0.00000000" bU="49.64955999" cU="-49.37945280" dU="32.82959284" aV="-0.00000000" bV="0.00000000" cV="-5.10923911" dV="5.13018609"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="-2"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="12" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+<road name=":cluster_1958639710_1977824632_8831755_7" length="19.87693415" id="152" junction="2">
+    <link>
+        <predecessor elementType="road" elementId="127" contactPoint="end"/>
+        <successor elementType="road" elementId="128" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="944.38271461" y="235.46732778" hdg="2.51194025" length="19.87693415">
+            <paramPoly3 aU="0.00000000" bU="33.99656417" cU="-15.63360258" dU="0.00000000" aV="-0.00000000" bV="0.00000000" cV="4.89360549" dV="0.00000000"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="11.11"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="12" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+<road name=":cluster_1958639710_1977824632_8831755_8" length="30.75026506" id="153" junction="2">
+    <link>
+        <predecessor elementType="road" elementId="121" contactPoint="end"/>
+        <successor elementType="road" elementId="131" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="931.62227540" y="236.05081447" hdg="0.66918343" length="30.75026506">
+            <paramPoly3 aU="0.00000000" bU="28.64728755" cU="-24.19221560" dU="0.00000000" aV="0.00000000" bV="0.00000000" cV="24.97400923" dV="0.00000000"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-3"/>
+                            <successor id="-2"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="10.92"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="13" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+<road name=":cluster_1958639710_1977824632_8831755_9" length="17.63118460" id="154" junction="2">
+    <link>
+        <predecessor elementType="road" elementId="121" contactPoint="end"/>
+        <successor elementType="road" elementId="125" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="926.65950955" y="242.32544236" hdg="0.66918343" length="17.63118460">
+            <paramPoly3 aU="0.00000000" bU="26.22433530" cU="-27.18513662" dU="17.85996021" aV="0.00000000" bV="0.00000000" cV="7.04996459" dV="-2.57002278"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="11.11"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="-2"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="11.11"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="13" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+<road name=":cluster_1958639710_1977824632_8831755_11" length="18.04411938" id="155" junction="2">
+    <link>
+        <predecessor elementType="road" elementId="121" contactPoint="end"/>
+        <successor elementType="road" elementId="131" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="926.65950955" y="242.32544236" hdg="0.66918343" length="18.04411938">
+            <paramPoly3 aU="0.00000000" bU="13.72288855" cU="-12.98790765" dU="0.00000000" aV="0.00000000" bV="0.00000000" cV="15.50400154" dV="0.00000000"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="none" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="8.78"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="13" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+<road name=":cluster_8381033227_8381033231_0" length="2.47470507" id="156" junction="5">
+    <link>
+        <predecessor elementType="road" elementId="124" contactPoint="end"/>
+        <successor elementType="road" elementId="123" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="1047.08964892" y="389.63531325" hdg="-2.25593588" length="2.47470507">
+            <paramPoly3 aU="-0.00000000" bU="3.71205756" cU="-3.71205789" dU="2.47470524" aV="0.00000000" bV="0.00000000" cV="0.00174557" dV="-0.00093154"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="broken" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                    <lane id="-2" type="driving" level="true">
+                        <link>
+                            <predecessor id="-2"/>
+                            <successor id="-2"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="14" s="0.00" t="0.00" orientation="-"/>
+        <signal id="14" s="0" t="0" name="signal:14" dynamic="yes" orientation="none" zOffset="0" country="OpenDRIVE" type="1000001" subtype="-1" value="-1" height="0" width="0.50" text="" hOffset="0" pitch="0" roll="0">
+            <validity fromLane="0" toLane="0"/>
+            <positionInertial x="1033.29" y="390.13" z="0.00" hdg="-2.26" pitch="0.00" roll="0.00"/>
+        </signal>
+        <signal id="15" s="0" t="0" name="signal:15" dynamic="yes" orientation="none" zOffset="0" country="OpenDRIVE" type="1000001" subtype="-1" value="-1" height="0" width="0.50" text="" hOffset="0" pitch="0" roll="0">
+            <validity fromLane="0" toLane="0"/>
+            <positionInertial x="1056.23" y="389.76" z="0.00" hdg="0.89" pitch="0.00" roll="0.00"/>
+        </signal>
+        </signals>
+</road>
+<road name=":cluster_8381033227_8381033231_2" length="2.47470516" id="157" junction="5">
+    <link>
+        <predecessor elementType="road" elementId="134" contactPoint="end"/>
+        <successor elementType="road" elementId="135" contactPoint="start"/>
+    </link>
+    <type s="0" type="town"/>
+    <planView>
+        <geometry s="0.00000000" x="1045.52433276" y="387.71855798" hdg="0.88584442" length="2.47470516">
+            <paramPoly3 aU="0.00000000" bU="3.71205769" cU="-3.71205770" dU="2.47470511" aV="0.00000000" bV="0.00000000" cV="0.00174557" dV="-0.00139589"/>
+        </geometry>
+    </planView>
+        <elevationProfile>
+            <elevation s="0" a="0.00" b="0" c="0" d="0"/>
+        </elevationProfile>
+        <lateralProfile/>
+        <lanes>
+            <laneSection s="0">
+                <center>
+                    <lane id="0" type="none" level="true">
+                        <link/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.00" laneChange="none"/>
+                    </lane>
+                </center>
+                <right>
+                    <lane id="-1" type="driving" level="true">
+                        <link>
+                            <predecessor id="-1"/>
+                            <successor id="-1"/>
+                        </link>
+                        <width sOffset="0" a="4.00" b="0" c="0" d="0"/>
+                        <roadMark sOffset="0" type="solid" weight="standard" color="standard" width="0.13"/>
+                        <speed sOffset="0" max="13.89"/>
+                    </lane>
+                 </right>
+            </laneSection>
+        </lanes>
+        <objects/>
+        <signals>
+        <signalReference id="15" s="0.00" t="0.00" orientation="-"/>
+        </signals>
+</road>
+
+        <controller name="crtl6" id="6" sequence="0">
+            <control signalId="6" type=""/>
+        </controller>
+        <controller name="crtl7" id="7" sequence="0">
+            <control signalId="7" type=""/>
+        </controller>
+        <controller name="crtl8" id="8" sequence="0">
+            <control signalId="8" type=""/>
+        </controller>
+        <controller name="crtl9" id="9" sequence="0">
+            <control signalId="9" type=""/>
+        </controller>
+        <controller name="crtl10" id="10" sequence="0">
+            <control signalId="10" type=""/>
+        </controller>
+        <controller name="crtl11" id="11" sequence="0">
+            <control signalId="11" type=""/>
+        </controller>
+        <controller name="crtl12" id="12" sequence="0">
+            <control signalId="12" type=""/>
+        </controller>
+        <controller name="crtl13" id="13" sequence="0">
+            <control signalId="13" type=""/>
+        </controller>
+        <controller name="crtl14" id="14" sequence="0">
+            <control signalId="14" type=""/>
+        </controller>
+        <controller name="crtl15" id="15" sequence="0">
+            <control signalId="15" type=""/>
+        </controller>
+
+    <junction name="245524387" id="7">
+        <connection id="0" incomingRoad="129" connectingRoad="136" contactPoint="start">
+            <laneLink from="-1" to="-1"/>
+            <laneLink from="-2" to="-2"/>
+        </connection>
+        <connection id="2" incomingRoad="129" connectingRoad="137" contactPoint="start">
+            <laneLink from="-1" to="-1"/>
+        </connection>
+    </junction>
+    <junction name="9113823512" id="4">
+        <connection id="0" incomingRoad="123" connectingRoad="138" contactPoint="start">
+            <laneLink from="-1" to="-1"/>
+            <laneLink from="-2" to="-2"/>
+        </connection>
+        <connection id="2" incomingRoad="133" connectingRoad="139" contactPoint="start">
+            <laneLink from="-1" to="-1"/>
+        </connection>
+        <controller id="6" type="0" sequence="0"/>
+        <controller id="7" type="0" sequence="0"/>
+    </junction>
+    <junction name="cluster_1093786794_1958639714_29555101_9113823513" id="1">
+        <connection id="0" incomingRoad="122" connectingRoad="140" contactPoint="start">
+            <laneLink from="-1" to="-1"/>
+            <laneLink from="-2" to="-2"/>
+        </connection>
+        <connection id="2" incomingRoad="122" connectingRoad="141" contactPoint="start">
+            <laneLink from="-1" to="-1"/>
+        </connection>
+        <connection id="3" incomingRoad="122" connectingRoad="142" contactPoint="start">
+            <laneLink from="-1" to="-1"/>
+        </connection>
+        <connection id="4" incomingRoad="125" connectingRoad="143" contactPoint="start">
+            <laneLink from="-2" to="-1"/>
+        </connection>
+        <connection id="5" incomingRoad="125" connectingRoad="144" contactPoint="start">
+            <laneLink from="-2" to="-1"/>
+        </connection>
+        <connection id="6" incomingRoad="130" connectingRoad="145" contactPoint="start">
+            <laneLink from="-2" to="-1"/>
+        </connection>
+        <connection id="7" incomingRoad="130" connectingRoad="146" contactPoint="start">
+            <laneLink from="-1" to="-1"/>
+            <laneLink from="-2" to="-2"/>
+        </connection>
+        <connection id="9" incomingRoad="130" connectingRoad="147" contactPoint="start">
+            <laneLink from="-1" to="-1"/>
+        </connection>
+        <controller id="8" type="0" sequence="0"/>
+        <controller id="9" type="0" sequence="0"/>
+        <controller id="10" type="0" sequence="0"/>
+    </junction>
+    <junction name="cluster_1958639710_1977824632_8831755" id="2">
+        <connection id="0" incomingRoad="120" connectingRoad="148" contactPoint="start">
+            <laneLink from="-3" to="-1"/>
+        </connection>
+        <connection id="1" incomingRoad="120" connectingRoad="149" contactPoint="start">
+            <laneLink from="-2" to="-1"/>
+            <laneLink from="-3" to="-2"/>
+        </connection>
+        <connection id="3" incomingRoad="127" connectingRoad="150" contactPoint="start">
+            <laneLink from="-2" to="-1"/>
+        </connection>
+        <connection id="4" incomingRoad="127" connectingRoad="151" contactPoint="start">
+            <laneLink from="-1" to="-1"/>
+            <laneLink from="-2" to="-2"/>
+        </connection>
+        <connection id="6" incomingRoad="127" connectingRoad="152" contactPoint="start">
+            <laneLink from="-1" to="-1"/>
+        </connection>
+        <connection id="7" incomingRoad="121" connectingRoad="153" contactPoint="start">
+            <laneLink from="-3" to="-1"/>
+        </connection>
+        <connection id="8" incomingRoad="121" connectingRoad="154" contactPoint="start">
+            <laneLink from="-1" to="-1"/>
+            <laneLink from="-2" to="-2"/>
+        </connection>
+        <connection id="10" incomingRoad="121" connectingRoad="155" contactPoint="start">
+            <laneLink from="-1" to="-1"/>
+        </connection>
+        <controller id="11" type="0" sequence="0"/>
+        <controller id="12" type="0" sequence="0"/>
+        <controller id="13" type="0" sequence="0"/>
+    </junction>
+    <junction name="cluster_8381033227_8381033231" id="5">
+        <connection id="0" incomingRoad="124" connectingRoad="156" contactPoint="start">
+            <laneLink from="-1" to="-1"/>
+            <laneLink from="-2" to="-2"/>
+        </connection>
+        <connection id="2" incomingRoad="134" connectingRoad="157" contactPoint="start">
+            <laneLink from="-1" to="-1"/>
+        </connection>
+        <controller id="14" type="0" sequence="0"/>
+        <controller id="15" type="0" sequence="0"/>
+    </junction>
+</OpenDRIVE>

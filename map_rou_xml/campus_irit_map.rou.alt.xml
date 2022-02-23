@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-01-03 15:52:05 by Eclipse SUMO duarouter Version 1.11.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value=".\script_carla\map_net_xml\campus_irit_map.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value=".\script_carla\map_rou_xml\campus_irit_map.rou.xml"/>
+        <alternatives-output value=".\script_carla\map_rou_xml\campus_irit_map.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="50"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="82.11" probability="1.00000000" edges="-2001.0.00 -2002.0.00 -2115.0.00 -1903.0.00 -1902.0.00 -1901.0.00 -1900.0.00 -1805.0.00 -1919.0.00 -1920.0.00 -1803.0.00 -1802.0.00 -1804.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1" depart="1.00">
+        <routeDistribution last="0">
+            <route cost="274.61" probability="1.00000000" edges="-1853.0.00 -2122.0.00 -2123.0.00 -2124.0.00 -2116.0.00 -1929.0.00 -1899.0.00 -1806.0.00 -1925.0.00 -1981.0.00 -1982.0.00 -1913.0.00 -1911.0.00 -2069.0.00 -1848.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2" depart="2.00">
+        <routeDistribution last="0">
+            <route cost="48.58" probability="1.00000000" edges="-2025.0.00 -2100.0.00 -2101.0.00 -1917.0.00 -1939.0.00 -2017.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3" depart="3.00">
+        <routeDistribution last="0">
+            <route cost="146.63" probability="1.00000000" edges="-2079.0.00 -2080.0.00 -2081.0.00 -1947.0.00 -1961.0.00 -1971.0.00 -1970.0.00 -1993.0.00 -2064.0.00 -1965.0.00 -1907.0.00 -1908.0.00 -2049.0.00 -2011.0.00 -2012.0.00 -2102.0.00 -2099.0.00 -1847.0.00 -1837.0.00 -1818.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4" depart="4.00">
+        <routeDistribution last="0">
+            <route cost="88.12" probability="1.00000000" edges="-1911.0.00 -2022.0.00 -1914.0.00 -1984.0.00 -1985.0.00 -1986.0.00 -1924.0.00 -1926.0.00 -1806.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="6" depart="6.00">
+        <routeDistribution last="0">
+            <route cost="178.39" probability="1.00000000" edges="-1805.0.00 -1919.0.00 -1920.0.00 -1803.0.00 -1802.0.00 -1804.0.00 -2098.0.00 -2099.0.00 -1847.0.00 -1846.0.00 -1845.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="7" depart="7.00">
+        <routeDistribution last="0">
+            <route cost="151.52" probability="1.00000000" edges="-2006.0.00 -1830.0.00 -1829.0.00 -1948.0.00 -2046.0.00 -1980.0.00 -2104.0.00 -2010.0.00 -2119.0.00 -2042.0.00 -2050.0.00 -1949.0.00 -1966.0.00 -1967.0.00 -1968.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="9" depart="9.00">
+        <routeDistribution last="0">
+            <route cost="107.52" probability="1.00000000" edges="-2050.0.00 -1961.0.00 -1971.0.00 -1970.0.00 -1993.0.00 -2064.0.00 -1965.0.00 -1907.0.00 -1908.0.00 -2049.0.00 -2011.0.00 -2012.0.00 -2102.0.00 -2099.0.00 -2100.0.00 -1938.0.00 -1884.0.00 -1800.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="10" depart="10.00">
+        <routeDistribution last="0">
+            <route cost="142.92" probability="1.00000000" edges="-2042.0.00 -1950.0.00 -2064.0.00 -1965.0.00 -1906.0.00 -2004.0.00 -1832.0.00 -2024.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="11" depart="11.00">
+        <routeDistribution last="0">
+            <route cost="183.12" probability="1.00000000" edges="-1871.0.00 -2041.0.00 -1898.0.00 -2031.0.00 -1923.0.00 -2115.0.00 -2116.0.00 -1929.0.00 -1899.0.00 -1806.0.00 -1925.0.00 -1981.0.00 -1810.0.00 -1809.0.00 -1808.0.00 -1969.0.00 -1955.0.00 -1956.0.00 -1957.0.00 -1836.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="12" depart="12.00">
+        <routeDistribution last="0">
+            <route cost="61.86" probability="1.00000000" edges="-2118.0.00 -1981.0.00 -1982.0.00 -1983.0.00 -1984.0.00 -1985.0.00 -1986.0.00 -1924.0.00 -1926.0.00 -1927.0.00 -1928.0.00 -2030.0.00 -2031.0.00 -1923.0.00 -2115.0.00 -1903.0.00 -1902.0.00 -1901.0.00 -1900.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="13" depart="13.00">
+        <routeDistribution last="0">
+            <route cost="125.90" probability="1.00000000" edges="-1817.0.00 -1955.0.00 -2027.0.00 -1958.0.00 -1819.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="14" depart="14.00">
+        <routeDistribution last="0">
+            <route cost="289.51" probability="1.00000000" edges="-2069.0.00 -1839.0.00 -2043.0.00 -1893.0.00 -1892.0.00 -2092.0.00 -1816.0.00 -1817.0.00 -1937.0.00 -1930.0.00 -1931.0.00 -2021.0.00 -2056.0.00 -1851.0.00 -1927.0.00 -1928.0.00 -2030.0.00 -2031.0.00 -2001.0.00 -2059.0.00 -2111.0.00 -2112.0.00 -1997.0.00 -1998.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="15" depart="15.00">
+        <routeDistribution last="0">
+            <route cost="103.54" probability="1.00000000" edges="-2043.0.00 -1893.0.00 -1892.0.00 -2095.0.00 -2096.0.00 -1860.0.00 -2097.0.00 -2026.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="16" depart="16.00">
+        <routeDistribution last="0">
+            <route cost="217.73" probability="1.00000000" edges="-1957.0.00 -2121.0.00 -1892.0.00 -2092.0.00 -1816.0.00 -1817.0.00 -1937.0.00 -1930.0.00 -1931.0.00 -2021.0.00 -2056.0.00 -1851.0.00 -1927.0.00 -1928.0.00 -2030.0.00 -2031.0.00 -2001.0.00 -2059.0.00 -2111.0.00 -2112.0.00 -1997.0.00 -1998.0.00 -2105.0.00 -2106.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="17" depart="17.00">
+        <routeDistribution last="0">
+            <route cost="90.06" probability="1.00000000" edges="-1897.0.00 -1896.0.00 -1895.0.00 -1826.0.00 -2113.0.00 -2114.0.00 -2120.0.00 -2077.0.00 -2078.0.00 -1968.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="18" depart="18.00">
+        <routeDistribution last="0">
+            <route cost="138.43" probability="1.00000000" edges="-2064.0.00 -1965.0.00 -1907.0.00 -1908.0.00 -2049.0.00 -2011.0.00 -2012.0.00 -2102.0.00 -2099.0.00 -2100.0.00 -2101.0.00 -1917.0.00 -1915.0.00 -1916.0.00 -1918.0.00 -1921.0.00 -1922.0.00 -2122.0.00 -2123.0.00 -2124.0.00 -2116.0.00 -2117.0.00 -2030.0.00 -2031.0.00 -2001.0.00 -2002.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="20" depart="20.00">
+        <routeDistribution last="0">
+            <route cost="96.46" probability="1.00000000" edges="-2019.0.00 -1927.0.00 -1928.0.00 -2030.0.00 -2031.0.00 -1923.0.00 -2115.0.00 -1903.0.00 -1902.0.00 -1901.0.00 -1900.0.00 -1807.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="21" depart="21.00">
+        <routeDistribution last="0">
+            <route cost="97.41" probability="1.00000000" edges="-1847.0.00 -1837.0.00 -1818.0.00 -1905.0.00 -1936.0.00 -1937.0.00 -1866.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="22" depart="22.00">
+        <routeDistribution last="0">
+            <route cost="204.09" probability="1.00000000" edges="-1816.0.00 -1956.0.00 -1957.0.00 -2121.0.00 -2096.0.00 -1860.0.00 -2097.0.00 -1848.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="23" depart="23.00">
+        <routeDistribution last="0">
+            <route cost="143.94" probability="1.00000000" edges="-1818.0.00 -1905.0.00 -1936.0.00 -1937.0.00 -1930.0.00 -1931.0.00 -2021.0.00 -2056.0.00 -1851.0.00 -1927.0.00 -1928.0.00 -2030.0.00 -2032.0.00 -1859.0.00 -1858.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="24" depart="24.00">
+        <routeDistribution last="0">
+            <route cost="114.89" probability="1.00000000" edges="-1998.0.00 -1895.0.00 -1826.0.00 -2113.0.00 -1909.0.00 -1995.0.00 -1996.0.00 -1850.0.00 -2002.0.00 -2115.0.00 -2116.0.00 -1929.0.00 -1899.0.00 -1806.0.00 -1925.0.00 -1981.0.00 -1982.0.00 -1913.0.00 -1911.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="25" depart="25.00">
+        <routeDistribution last="0">
+            <route cost="182.44" probability="1.00000000" edges="-1895.0.00 -1826.0.00 -2113.0.00 -1909.0.00 -1995.0.00 -1996.0.00 -1850.0.00 -2002.0.00 -2115.0.00 -2116.0.00 -1929.0.00 -1899.0.00 -1806.0.00 -1925.0.00 -1981.0.00 -1810.0.00 -1809.0.00 -1808.0.00 -1969.0.00 -1955.0.00 -2027.0.00 -2028.0.00 -1846.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="26" depart="26.00">
+        <routeDistribution last="0">
+            <route cost="95.57" probability="1.00000000" edges="-1850.0.00 -2002.0.00 -2115.0.00 -2116.0.00 -1929.0.00 -1899.0.00 -1806.0.00 -1925.0.00 -1981.0.00 -1810.0.00 -1809.0.00 -1808.0.00 -1866.0.00 -2084.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="27" depart="27.00">
+        <routeDistribution last="0">
+            <route cost="206.56" probability="1.00000000" edges="-2006.0.00 -1830.0.00 -1829.0.00 -1948.0.00 -2046.0.00 -1980.0.00 -2104.0.00 -2010.0.00 -2119.0.00 -2042.0.00 -2050.0.00 -1949.0.00 -1966.0.00 -1967.0.00 -1968.0.00 -2082.0.00 -2126.0.00 -1994.0.00 -1995.0.00 -1910.0.00 -2112.0.00 -1997.0.00 -2088.0.00 -2089.0.00 -2090.0.00 -1999.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="28" depart="28.00">
+        <routeDistribution last="0">
+            <route cost="185.70" probability="1.00000000" edges="-1834.0.00 -1969.0.00 -1955.0.00 -1956.0.00 -1957.0.00 -2121.0.00 -2096.0.00 -1860.0.00 -2097.0.00 -2026.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="29" depart="29.00">
+        <routeDistribution last="0">
+            <route cost="58.06" probability="1.00000000" edges="-1833.0.00 -1942.0.00 -1916.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="30" depart="30.00">
+        <routeDistribution last="0">
+            <route cost="132.80" probability="1.00000000" edges="-2127.0.00 -1906.0.00 -2004.0.00 -1832.0.00 -1959.0.00 -2007.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="31" depart="31.00">
+        <routeDistribution last="0">
+            <route cost="114.67" probability="1.00000000" edges="-1966.0.00 -1967.0.00 -2038.0.00 -1853.0.00 -2122.0.00 -2123.0.00 -2124.0.00 -2116.0.00 -1929.0.00 -1899.0.00 -1806.0.00 -1925.0.00 -1981.0.00 -1810.0.00 -2021.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="32" depart="32.00">
+        <routeDistribution last="0">
+            <route cost="294.11" probability="1.00000000" edges="-2069.0.00 -1839.0.00 -2043.0.00 -1893.0.00 -1892.0.00 -2092.0.00 -1816.0.00 -1817.0.00 -1937.0.00 -1930.0.00 -1931.0.00 -2021.0.00 -2056.0.00 -1851.0.00 -1927.0.00 -1928.0.00 -2030.0.00 -2032.0.00 -1859.0.00 -2041.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="33" depart="33.00">
+        <routeDistribution last="0">
+            <route cost="134.47" probability="1.00000000" edges="-1847.0.00 -1837.0.00 -1818.0.00 -1905.0.00 -1936.0.00 -1937.0.00 -1930.0.00 -1931.0.00 -2021.0.00 -2056.0.00 -1851.0.00 -1806.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="34" depart="34.00">
+        <routeDistribution last="0">
+            <route cost="115.84" probability="1.00000000" edges="-1866.0.00 -1834.0.00 -1930.0.00 -1931.0.00 -2021.0.00 -2056.0.00 -1851.0.00 -1927.0.00 -1928.0.00 -2030.0.00 -2031.0.00 -1923.0.00 -2115.0.00 -1903.0.00 -1902.0.00 -2036.0.00 -1854.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="35" depart="35.00">
+        <routeDistribution last="0">
+            <route cost="250.37" probability="1.00000000" edges="-1845.0.00 -1848.0.00 -2022.0.00 -1914.0.00 -1984.0.00 -1985.0.00 -1986.0.00 -1924.0.00 -1926.0.00 -1927.0.00 -1928.0.00 -2030.0.00 -2031.0.00 -2001.0.00 -2059.0.00 -2111.0.00 -2112.0.00 -1997.0.00 -2088.0.00 -2089.0.00 -2090.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="36" depart="36.00">
+        <routeDistribution last="0">
+            <route cost="72.64" probability="1.00000000" edges="-2072.0.00 -1989.0.00 -1991.0.00 -1823.0.00 -1822.0.00 -1879.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="37" depart="37.00">
+        <routeDistribution last="0">
+            <route cost="178.59" probability="1.00000000" edges="-2006.0.00 -1830.0.00 -1829.0.00 -1951.0.00 -1908.0.00 -2049.0.00 -2011.0.00 -2012.0.00 -2102.0.00 -2099.0.00 -2100.0.00 -1938.0.00 -1884.0.00 -1905.0.00 -1936.0.00 -1937.0.00 -1930.0.00 -1931.0.00 -1932.0.00 -1982.0.00 -1983.0.00 -1984.0.00 -1985.0.00 -1986.0.00 -1924.0.00 -1926.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="38" depart="38.00">
+        <routeDistribution last="0">
+            <route cost="160.11" probability="1.00000000" edges="-2084.0.00 -1933.0.00 -1935.0.00 -1801.0.00 -2085.0.00 -2008.0.00 -1942.0.00 -1802.0.00 -1939.0.00 -1940.0.00 -1941.0.00 -2010.0.00 -2119.0.00 -2042.0.00 -2050.0.00 -1961.0.00 -1972.0.00 -2051.0.00 -2052.0.00 -1953.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="39" depart="39.00">
+        <routeDistribution last="0">
+            <route cost="228.57" probability="1.00000000" edges="-1849.0.00 -1813.0.00 -1884.0.00 -1905.0.00 -1936.0.00 -1955.0.00 -1956.0.00 -1957.0.00 -2121.0.00 -2096.0.00 -1860.0.00 -2097.0.00 -1848.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="40" depart="40.00">
+        <routeDistribution last="0">
+            <route cost="55.40" probability="1.00000000" edges="-1966.0.00 -1967.0.00 -2038.0.00 -1853.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="41" depart="41.00">
+        <routeDistribution last="0">
+            <route cost="128.70" probability="1.00000000" edges="-1969.0.00 -1937.0.00 -1930.0.00 -1931.0.00 -2021.0.00 -2056.0.00 -1851.0.00 -1927.0.00 -1928.0.00 -2030.0.00 -2031.0.00 -2001.0.00 -2059.0.00 -2111.0.00 -2112.0.00 -2113.0.00 -2114.0.00 -2120.0.00 -2077.0.00 -2076.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="44" depart="44.00">
+        <routeDistribution last="0">
+            <route cost="152.54" probability="1.00000000" edges="-1817.0.00 -1937.0.00 -1930.0.00 -1931.0.00 -2021.0.00 -2056.0.00 -1851.0.00 -1927.0.00 -1928.0.00 -2030.0.00 -2031.0.00 -1923.0.00 -2115.0.00 -1903.0.00 -1902.0.00 -1901.0.00 -1900.0.00 -1807.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="45" depart="45.00">
+        <routeDistribution last="0">
+            <route cost="114.29" probability="1.00000000" edges="-1819.0.00 -2028.0.00 -1846.0.00 -2006.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="46" depart="46.00">
+        <routeDistribution last="0">
+            <route cost="103.22" probability="1.00000000" edges="-2036.0.00 -1854.0.00 -2124.0.00 -2116.0.00 -1929.0.00 -1899.0.00 -1806.0.00 -1925.0.00 -1981.0.00 -1810.0.00 -1809.0.00 -1808.0.00 -1969.0.00 -1937.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="47" depart="47.00">
+        <routeDistribution last="0">
+            <route cost="115.93" probability="1.00000000" edges="-1815.0.00 -1945.0.00 -2064.0.00 -1965.0.00 -1907.0.00 -1908.0.00 -2049.0.00 -2011.0.00 -2012.0.00 -2102.0.00 -2099.0.00 -2100.0.00 -2101.0.00 -1917.0.00 -1915.0.00 -1916.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="48" depart="48.00">
+        <routeDistribution last="0">
+            <route cost="90.54" probability="1.00000000" edges="-2127.0.00 -1907.0.00 -1908.0.00 -1980.0.00 -2104.0.00 -2010.0.00 -2119.0.00 -2042.0.00 -2050.0.00 -1949.0.00 -1966.0.00"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="49" depart="49.00">
+        <routeDistribution last="0">
+            <route cost="155.83" probability="1.00000000" edges="-2123.0.00 -2124.0.00 -2116.0.00 -1929.0.00 -1899.0.00 -1806.0.00 -1925.0.00 -1981.0.00 -1982.0.00 -1913.0.00 -1911.0.00 -2069.0.00"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

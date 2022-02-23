@@ -1,0 +1,6 @@
+<configuration>
+    <input>
+        <net-file value="../map_net_xml/town_04_perif_simu.net.xml"/>
+        <route-files value="../map_rou_xml/town_04_perif_simu.rou.xml"/>
+    </input>
+</configuration>

@@ -1,0 +1,12 @@
+<configuration>
+
+<input>
+    <net-file value="..\map_net_xml\pont_croisement.net.xml"/>
+    <route-files value="..\map_rou_xml\pont_croisement.rou.xml"/>
+</input>
+<time>
+    <begin value="0"/>
+    <end value="2000"/>
+</time>
+
+</configuration>

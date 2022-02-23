@@ -1,0 +1,10 @@
+<configuration>
+<input>
+    <net-file value="../map_net_xml/aire_autoroute.net.xml"/>
+    <route-files value="../map_rou_xml/aire_autoroute.rou.xml"/>
+</input>
+<time>
+    <begin value="0"/>
+    <end value="2000"/>
+</time>
+</configuration>
