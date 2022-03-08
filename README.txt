@@ -3,6 +3,10 @@ Prérequis :
 
 - installer Sumo : https://www.eclipse.org/sumo/
 
+- installer Visual Studio 2019 : https://docs.microsoft.com/en-us/visualstudio/releases/2019/release-notes
+
+- installer DirectX : https://www.microsoft.com/fr-FR/download/details.aspx?id=35 
+
 +
 
 sudo apt-get install python3.7
@@ -23,14 +27,14 @@ Dossiers :
 
 Sumo/...
 Carla/...
-scripts/map_xodr/...    --> dossier contenant les maps ouvrables sur Carla pourra afficher le côté réaliste de la simulation
-        map_osm/...     --> dossier contenant les maps télécharger depuis OpenStreetMap (OSM)
-        map_net_xml/... --> dossier contenant les maps Sumo
-        map_rou_xml/... --> dossier contenant les routes Sumo pour la simulation
-        map_sumocfg/... --> dossier contenant les configuration Sumo à utiliser pour la co-simulation
-        script_carla/...--> dossier contenant plusieurs scripts python utilitaires pour Carla
-        Osm2Sumocfg.sh  --> fichier bash transformant une map OSM en une configuration Sumo
-        osm2xodr.py     --> fichier python transformant une map OSM et map xodr pour Carla
+C2C_Scripts_Cosimu_CarlaXSumo/map_xodr/...    --> dossier contenant les maps ouvrables sur Carla pourra afficher le côté réaliste de la simulation
+                                map_osm/...     --> dossier contenant les maps télécharger depuis OpenStreetMap (OSM)
+                                map_net_xml/... --> dossier contenant les maps Sumo
+                                map_rou_xml/... --> dossier contenant les routes Sumo pour la simulation
+                                map_sumocfg/... --> dossier contenant les configuration Sumo à utiliser pour la co-simulation
+                                script_carla/...--> dossier contenant plusieurs scripts python utilitaires pour Carla
+                                Osm2Sumocfg.sh  --> fichier bash transformant une map OSM en une configuration Sumo
+                                osm2xodr.py     --> fichier python transformant une map OSM et map xodr pour Carla
 
 Lancement du fichier Osm2Sumocfg.sh :
         ./Osm2Sumocfg.sh map.osm [-t titre=type_map] [-n nbVehicles=50]
