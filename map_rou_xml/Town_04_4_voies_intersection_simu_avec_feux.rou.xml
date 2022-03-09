@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-01-24 09:50:04 by Eclipse SUMO duarouter Version 1.11.0
+<!-- generated on 2022-03-09 15:35:59 by Eclipse SUMO duarouter Version 1.12.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
-        <net-file value=".\script_carla\map_net_xml\Town_04_4_voies_intersection_simu_avec_feux.net.xml"/>
+        <net-file value=".\map_net_xml\Town_04_4_voies_intersection_simu_avec_feux.net.xml"/>
         <route-files value="trips.trips.xml"/>
     </input>
 
     <output>
-        <output-file value=".\script_carla\map_rou_xml\Town_04_4_voies_intersection_simu_avec_feux.rou.xml"/>
-        <alternatives-output value=".\script_carla\map_rou_xml\Town_04_4_voies_intersection_simu_avec_feux.rou.alt.xml"/>
+        <output-file value=".\map_rou_xml\Town_04_4_voies_intersection_simu_avec_feux.rou.xml"/>
+        <alternatives-output value=".\map_rou_xml\Town_04_4_voies_intersection_simu_avec_feux.rou.alt.xml"/>
     </output>
 
     <time>
         <begin value="0"/>
-        <end value="20"/>
+        <end value="25"/>
     </time>
 
     <report>
@@ -72,5 +72,20 @@
     </vehicle>
     <vehicle id="18" depart="18.00">
         <route edges="29.0.00 10.0.00"/>
+    </vehicle>
+    <vehicle id="20" depart="20.00">
+        <route edges="29.0.00 -11.0.00"/>
+    </vehicle>
+    <vehicle id="21" depart="21.00">
+        <route edges="-10.0.00 -29.0.00"/>
+    </vehicle>
+    <vehicle id="22" depart="22.00">
+        <route edges="-10.0.00 -11.0.00"/>
+    </vehicle>
+    <vehicle id="23" depart="23.00">
+        <route edges="-10.0.00 -29.0.00"/>
+    </vehicle>
+    <vehicle id="24" depart="24.00">
+        <route edges="11.0.00 -29.0.00"/>
     </vehicle>
 </routes>
