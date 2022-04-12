@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.8.6 (2401825 spike-06.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="1" visible="true" version="1" lat="43.6405448" lon="1.4567989"/>
+ <node id="2" visible="true" version="1" lat="43.6409275" lon="1.4561931"/>
+ <node id="3" visible="true" version="1" lat="43.6402839" lon="1.4560856"/>
+ <node id="4" visible="true" version="1" lat="43.6407890" lon="1.4561901"/>
+ <node id="5" visible="true" version="1" lat="43.6413247" lon="1.4567408"/>
+ <node id="6" visible="true" version="1" lat="43.6413141" lon="1.4558842"/>
+ <node id="7" visible="true" version="1" lat="43.6412625" lon="1.4565211"/>
+ <node id="8" visible="true" version="1" lat="43.6405776" lon="1.4559851"/>
+ <node id="9" visible="true" version="1" lat="43.6407761" lon="1.4562518"/>
+ <node id="10" visible="true" version="1" lat="43.6402586" lon="1.4559701"/>
+ <node id="11" visible="true" version="1" lat="43.6407706" lon="1.4567899"/>
+ <node id="12" visible="true" version="1" lat="43.6403166" lon="1.4560125"/>
+ <node id="13" visible="true" version="1" lat="43.6415379" lon="1.4568807"/>
+ <way id="101" visible="true" version="1" >
+  <nd ref="1"/>
+  <nd ref="2"/>
+  <nd ref="3"/>
+  <nd ref="4"/>
+  <nd ref="5"/>
+  <nd ref="6"/>
+  <nd ref="7"/>
+  <nd ref="8"/>
+  <nd ref="9"/>
+  <nd ref="10"/>
+  <nd ref="11"/>
+  <nd ref="12"/>
+  <nd ref="13"/>
+  <tag k="highway" v="residential"/>
+  <tag k="name" v="Rue Monseigneur Bruno de Solages"/>
+ </way>
+</osm>

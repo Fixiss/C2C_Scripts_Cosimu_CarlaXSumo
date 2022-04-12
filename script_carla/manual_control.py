@@ -822,6 +822,7 @@ class HelpText(object):
 
 class CollisionSensor(object):
     def __init__(self, parent_actor, hud):
+        print("init collision")
         self.sensor = None
         self.history = []
         self._parent = parent_actor
@@ -861,6 +862,7 @@ class CollisionSensor(object):
 
 class LaneInvasionSensor(object):
     def __init__(self, parent_actor, hud):
+        print("init lane invasion")
         self.sensor = None
 
         # If the spawn object is not a vehicle, we cannot use the Lane Invasion Sensor
@@ -892,6 +894,7 @@ class LaneInvasionSensor(object):
 
 class GnssSensor(object):
     def __init__(self, parent_actor):
+        print("init Gnss")
         self.sensor = None
         self._parent = parent_actor
         self.lat = 0.0
@@ -920,6 +923,7 @@ class GnssSensor(object):
 
 class IMUSensor(object):
     def __init__(self, parent_actor):
+        print("init IMU")
         self.sensor = None
         self._parent = parent_actor
         self.accelerometer = (0.0, 0.0, 0.0)
@@ -959,6 +963,7 @@ class IMUSensor(object):
 
 class RadarSensor(object):
     def __init__(self, parent_actor):
+        print("init radar")
         self.sensor = None
         self._parent = parent_actor
         bound_x = 0.5 + self._parent.bounding_box.extent.x
